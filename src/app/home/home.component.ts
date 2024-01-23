@@ -27,6 +27,7 @@ import { HousingService } from '../housing.service';
 export class HomeComponent {
   housingLocationList: HousingLocation[] = [];
   housingService: HousingService = inject(HousingService);
+  
   filteredLocationList: HousingLocation[] = [];
 
 constructor() {
